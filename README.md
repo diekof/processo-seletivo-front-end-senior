@@ -31,6 +31,7 @@ npm install
 # Iniciar o servidor de desenvolvimento
 npm run dev
 
+```
 ---
 
 ## Organização do Projeto
