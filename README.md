@@ -1,5 +1,7 @@
 # Dados da Inscrição PSS 02/2025/SEPLAG (Analista de TI - Perfil Junior, Pleno e Sênior)
 
+## Processo Seletivo
+
 **Nome:** Diego Donizete Correa da Silva  
 **CPF:** 023.127.121-21  
 **Perfil:** DESENVOLVEDOR FRONT-END - SÊNIOR  
@@ -15,21 +17,26 @@
 - **ESLint / Prettier**: Padronização e qualidade de código.
 - **Axios**: Cliente HTTP para requisições à API.
 - **Zustand**: Gerenciador de estado leve, moderno e reativo.
+- **Docker / Docker Compose**: Para facilitar o setup e execução da aplicação.
 
 ---
 
-## Instruções para rodar o projeto localmente
+## Instruções para rodar o projeto via Docker
+
+### Pré-requisitos
+- [Docker](https://www.docker.com/) instalado
+- [Docker Compose](https://docs.docker.com/compose/install/) instalado
+
+### Rodando o projeto
 
 ```bash
 # Clonar o repositório
 git clone https://github.com/diekof/processo-seletivo-front-end-senior.git
 cd processo-seletivo-front-end-senior
 
-# Instalar as dependências
-npm install
+# Subir a aplicação com Docker Compose
+docker-compose up
 
-# Iniciar o servidor de desenvolvimento
-npm run dev
 
 ```
 ---
