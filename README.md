@@ -41,6 +41,12 @@ docker-compose up
 ```
 ---
 
+## Prévia da Interface
+
+![Preview da aplicação](./screenshots/screen001.png)
+
+---
+
 ## Organização do Projeto
 A estrutura do projeto foi pensada para facilitar a escalabilidade, separação de responsabilidades e reutilização de código:
 
