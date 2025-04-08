@@ -41,23 +41,28 @@ docker-compose up
 ```
 ---
 
-## Prévia da Interface
-
-![Preview da aplicação](./screenshots/screen001.png)
-
----
-
 ## Organização do Projeto
 A estrutura do projeto foi pensada para facilitar a escalabilidade, separação de responsabilidades e reutilização de código:
 
-src/
-├── components/         # Componentes reutilizáveis da interface
-├── pages/              # Páginas e rotas da aplicação (Next.js)
-├── services/           # Integração com APIs (Axios)
-├── store/              # Gerenciamento de estado (Zustand)
-├── styles/             # Estilizações globais e configurações do Tailwind
-├── types/              # Tipagens e interfaces TypeScript
-└── utils/              # Funções utilitárias reutilizáveis
+├── app/
+|── components/
+|── hooks/
+|── pages/
+|── lib/
+├── providers/
+├── public/
+├── screenshots/
+├── styles/
+
+---
+
+## Layout
+
+O projeto foi desenvolvido com um layout modular, onde cada componente é responsável por uma parte do layout.
+
+### Prévia da Interface
+
+![Preview da aplicação](./screenshots/screen001.png)
 
 ---
 
