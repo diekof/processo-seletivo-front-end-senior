@@ -30,3 +30,25 @@ npm install
 
 # Iniciar o servidor de desenvolvimento
 npm run dev
+
+## Organização do Projeto
+A estrutura do projeto foi pensada para facilitar a escalabilidade, separação de responsabilidades e reutilização de código:
+
+src/
+├── components/         # Componentes reutilizáveis da interface
+├── pages/              # Páginas e rotas da aplicação (Next.js)
+├── services/           # Integração com APIs (Axios)
+├── store/              # Gerenciamento de estado (Zustand)
+├── styles/             # Estilizações globais e configurações do Tailwind
+├── types/              # Tipagens e interfaces TypeScript
+└── utils/              # Funções utilitárias reutilizáveis
+
+## Considerações Finais
+
+O projeto foi desenvolvido com foco em:
+
+- Boas práticas de desenvolvimento front-end
+- Arquitetura limpa e modular
+- Tipagem e padronização
+- Componentização
+- Performance e legibilidade
