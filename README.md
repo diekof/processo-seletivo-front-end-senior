@@ -31,6 +31,8 @@ npm install
 # Iniciar o servidor de desenvolvimento
 npm run dev
 
+---
+
 ## Organização do Projeto
 A estrutura do projeto foi pensada para facilitar a escalabilidade, separação de responsabilidades e reutilização de código:
 
@@ -42,6 +44,8 @@ src/
 ├── styles/             # Estilizações globais e configurações do Tailwind
 ├── types/              # Tipagens e interfaces TypeScript
 └── utils/              # Funções utilitárias reutilizáveis
+
+---
 
 ## Considerações Finais
 
